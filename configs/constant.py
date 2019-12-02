@@ -1,6 +1,5 @@
 #Defing the constant used in the project.
 # Units of the Dense layer
-UNIT = 32
 
 OUTPUT_UNIT = 1
 
@@ -10,3 +9,10 @@ DROP_RATE = 0.2
 # CONSTANT for P-Rule
 THRESHOLD = 0.5
 
+
+# Number of hidden layers in classifier to try
+NUM_LAYERS = 2
+
+NUM_UNITS = 50
+
+OPTIMAL_NUM_FEATURES = 372
